@@ -1,0 +1,40 @@
+body {
+  padding: 1rem 3rem 3rem 3rem;
+  background: rgb(37, 63, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(37, 63, 224, 1) 0%,
+    rgba(224, 37, 206, 1) 100%
+  );
+
+  background-attachment: fixed;
+
+  //estilo de la fuente
+
+  font-family: sans-serif;
+  color: white;
+
+}
+
+
+//estilos caja padre principal
+
+
+
+//estilos contenedor foto/texto
+
+
+//estilos de la fotografia de perfil
+.foto-cont {
+  img {
+    width: 70px;
+    border-radius: 10px;
+  }
+}
+
+
+//estilos menu
+
+.menu{
+  margin-top: 1rem;
+}

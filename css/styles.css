@@ -1,0 +1,154 @@
+body {
+  padding: 1rem 3rem 3rem 3rem;
+  background: rgb(37, 63, 224);
+  background: linear-gradient(0deg, rgb(37, 63, 224) 0%, rgb(224, 37, 206) 100%);
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: white;
+}
+
+.foto-cont img {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.menu {
+  margin-top: 1rem;
+}
+
+.glass-1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px 0px 0px 20px;
+}
+@media (max-width: 768px) {
+  .glass-1 {
+    border-radius: 20px 20px 0px 0px;
+  }
+}
+
+.glass-2 {
+  background-color: rgba(255, 255, 255, 0.1098039216);
+  border-radius: 0px 20px 20px 0px;
+}
+@media (max-width: 768px) {
+  .glass-2 {
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+
+.opcion1 {
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+.opcion1 p {
+  margin: 0;
+}
+
+.opcion2 {
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+.opcion2 p {
+  margin: 0;
+}
+
+.opcion3 {
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+.opcion3 p {
+  margin: 0;
+}
+
+.opcion4 {
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+.opcion4 p {
+  margin: 0;
+}
+
+.efecto:hover {
+  background-color: rgba(175, 173, 175, 0.3568627451);
+  border-radius: 10px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.btn-cv {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem;
+}
+.btn-cv:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.btn-pro {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 0.2rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+.btn-pro:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.card-exp {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+  border-radius: 15px;
+  padding: 1rem 0rem 0rem 1rem;
+}
+.card-exp:hover {
+  transition: all 0.8s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3411764706);
+}
+
+.text-exp-c h2 {
+  font-weight: 700;
+  background: linear-gradient(90deg, #12C2E9 0%, #DF09C8 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+.skill:hover {
+  transition: all 0.8s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3411764706);
+}
+@media (max-width: 576px) {
+  .skill {
+    padding: 0.5rem;
+    width: 3rem;
+  }
+  .skill img {
+    width: 25px;
+    height: 30px;
+  }
+}
+
+.glass-input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
